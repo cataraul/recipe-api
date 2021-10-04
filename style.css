@@ -334,6 +334,13 @@ body{
         width:70%;
     }
 }
+@media only screen and (max-width:460px){
+    .modal-card{
+        height:18rem;
+        width:20rem;
+       font-size:1.2rem;
+    }
+}
 @media only screen and (max-width:330px){
     .recipe-text p{
         font-size:0.9rem;
