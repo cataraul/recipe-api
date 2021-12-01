@@ -52,7 +52,7 @@ getMealCategories("categories").then((data) => {
 });
 
 //Displaying the recipes
-function checkForRecipes(meal) {
+function checkForRecipes(meal, e) {
   //If there are no recipes(meals===null) display modal
   if (meal === null) {
     let windowsScrollCurrentPosition = window.scrollY;
@@ -66,8 +66,18 @@ function checkForRecipes(meal) {
     });
     recipeCategories.classList.add("filter");
     recipeCategories.style.pointerEvents = "none";
-
-    //Close the modal and return to the page
+    document.querySelector("body").style.overflow = "hidden";
+    //Check for click, if its outside of the modal, close it
+    document.addEventListener("click", function (e) {
+      if (e.target.classList.contains("modal-show")) {
+        document
+          .querySelector(".modal-null-categories")
+          .classList.remove("modal-show");
+        recipeCategories.classList.remove("filter");
+        recipeCategories.style.pointerEvents = "auto";
+        document.querySelector("body").style.overflow = "auto";
+      }
+    });
     removeModal(windowsScrollCurrentPosition);
   } else {
     changeContainer(meal);
@@ -87,6 +97,7 @@ function removeModal(scrollPosition) {
     });
     recipeCategories.classList.remove("filter");
     recipeCategories.style.pointerEvents = "auto";
+    document.querySelector("body").style.overflow = "auto";
   });
 }
 
@@ -120,6 +131,11 @@ function createRecipes(meal) {
     recipeCategories.classList.add("recipes-animation");
     removeChilds(mealRecipe);
     mealRecipe.style.display = "none";
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
   });
   mealRecipe.style.display = "flex";
   meal.forEach((meals) => {
@@ -139,12 +155,11 @@ function createRecipes(meal) {
           </div>
       </div>
       <div class="recipe-text">
-        <p class="area">${
-          meals.strArea
-        } is the area from where this meal originates from.</p>
-        <p>If you want to watch someone make the meal: <a href="${
+        <p class="area">
+        This is a ${meals.strArea} meal.</p>
+        <p>Meal preparation video: <a href="${
           meals.strYoutube
-        }">${meals.strMeal}</a></p>
+        }" target="_blank">${meals.strMeal}</a></p>
         ${showIngredients(meals).innerHTML}
         <div class="show-instr-div">
           <button class="show-instructions"><img src="images/down-arrow.png"</button>

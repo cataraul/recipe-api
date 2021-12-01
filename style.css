@@ -1,348 +1,366 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='.5' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cuse fill='%23fcfcfc' href='%23s' y='2'/%3E%3Cuse fill='%23fcfcfc' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s'/%3E%3Cuse fill='%23f7f7f7' href='%23s' x='2'/%3E%3Cuse fill='%23f7f7f7' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23f5f5f5'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23f5f5f5'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23f2f2f2'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ffffff'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23efefef'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
-
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='.5' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cuse fill='%23fcfcfc' href='%23s' y='2'/%3E%3Cuse fill='%23fcfcfc' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s'/%3E%3Cuse fill='%23f7f7f7' href='%23s' x='2'/%3E%3Cuse fill='%23f7f7f7' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23f5f5f5'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23f5f5f5'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23f2f2f2'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ffffff'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23efefef'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.go-back{
-    position:fixed;
-    z-index:9999;
-    right:-9rem;
-    top:3rem;
+.go-back {
+  position: fixed;
+  z-index: 9999;
+  right: -9rem;
+  top: 3rem;
 }
-.go-back button{
-    background-color:#FFB085;
-    border:none;
-    height:5rem;
-    width:12rem;
-    padding:0 1rem;
-    font-size:1.1rem;
-    border-radius:1rem;
-    transition: transform 0.2s ease;
-    display:none;
+.go-back button {
+  background-color: #ffb085;
+  border: none;
+  height: 5rem;
+  width: 12rem;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  border-radius: 1rem;
+  transition: transform 0.2s ease;
+  display: none;
 }
-.go-back button span{
-    left:0;
-    position:absolute;
-    font-size:2rem;
-}
-
-.go-back button:hover{
-    cursor: pointer;
-    transform:translateX(-9rem);
+.go-back button span {
+  left: 0;
+  position: absolute;
+  font-size: 2rem;
 }
 
-.page-title{
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.25rem;
+.go-back button:hover {
+  cursor: pointer;
+  transform: translateX(-9rem);
 }
 
-
-.description{
-    text-align:center;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-.description p a{
-    text-decoration: none;
-    
-}
-.recipes-categories{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;    
-   
-}
-.recipe-container{
-    width:100%;
+.page-title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
 }
 
-.meals-recipes{
-    width:98%;
-    height:100%;
-    margin:0 auto;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    border-radius:1rem;
+.description {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
-.meal-recipe-container{
-    min-height:30rem;
-    width:95%;
-    border:1px solid #90AACB;
-    border-radius:1rem;
-    margin:1rem auto;
-    display:flex;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: #fff;
+.description p a {
+  text-decoration: none;
 }
-.recipe{
-    display:flex;
-    margin:1rem auto;
-    width:90%;
+.recipes-categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.recipe-container {
+  width: 100%;
 }
 
-.recipe-image-title{
-    width:30rem;
-    height:90%;
-    margin:1rem auto;
+.meals-recipes {
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 1rem;
 }
-.recipe-title{
-    height:15%;
-    width:100%;
-    text-align: center;
+.meal-recipe-container {
+  min-height: 30rem;
+  width: 95%;
+  border: 1px solid #90aacb;
+  border-radius: 1rem;
+  margin: 1rem auto;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #fff;
 }
-.recipe-title h3{
-    font-size:1.2rem;
+.recipe {
+  display: flex;
+  margin: 1rem auto;
+  width: 90%;
 }
-.recipe-image{
-    height:85%;
-    width:100%;
-    border-radius:0.4rem;
+
+.recipe-image-title {
+  width: 30rem;
+  height: 90%;
+  margin: 1rem auto;
 }
-.recipe-image img{
-    border-radius:0.4rem;
-    height:100%;
-    width:100%;
+.recipe-title {
+  height: 15%;
+  width: 100%;
+  text-align: center;
 }
-.recipe-text{
-    /* border:1px solid red; */
-    width:100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    margin:0 1.2rem;
+.recipe-title h3 {
+  font-size: 1.2rem;
+}
+.recipe-image {
+  height: 85%;
+  width: 100%;
+  border-radius: 0.4rem;
+}
+.recipe-image img {
+  border-radius: 0.4rem;
+  height: 100%;
+  width: 100%;
+}
+.recipe-text {
+  /* border:1px solid red; */
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 1.2rem;
 }
 .recipe-text p {
-    font-size:1rem;
+  font-size: 1rem;
 }
-.ingredients{
-    display:flex;
-    color:#fff;
+.ingredients {
+  display: flex;
+  color: #fff;
 }
-.ing-dec{
-    text-decoration: underline;
-    text-transform: uppercase;
+.ing-dec {
+  text-decoration: underline;
+  text-transform: uppercase;
 }
-.show-instr-div{
-    display:flex;
-    width:100%;
-    align-items: flex-end;
-    justify-content: flex-end;
-    bottom:0;
+.show-instr-div {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  bottom: 0;
 }
-.show-instructions{
-    height:5rem;
-    width:5rem;
-    border:none;
-    background-color:#FFB085;
-    color:#fff;
-    border-radius:50%;
-    margin:0 1rem;
-    transition:transform 0.3s ease;
-    
+.show-instructions {
+  height: 5rem;
+  width: 5rem;
+  border: none;
+  background-color: #ffb085;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 1rem;
+  transition: transform 0.3s ease;
 }
-.rotate{
-    transform:rotateZ(-180deg);
-}
-
-.show-instructions:hover{
-    cursor: pointer;
-}
-.show-instructions img{
-    height:100%;
-    width:100%;
-}
-.recipe-instructions{
-    width:90%;
-    margin:0 auto;
-    line-height: 2.5;
-    display:none;
+.rotate {
+  transform: rotateZ(-180deg);
 }
 
+.show-instructions:hover {
+  cursor: pointer;
+}
+.show-instructions img {
+  height: 100%;
+  width: 100%;
+}
+.recipe-instructions {
+  width: 90%;
+  margin: 0 auto;
+  line-height: 2.5;
+  display: none;
+}
 
 /* .recipe-categories-gif{
     height:100%;
     width:100%;
     background-image:url("images/Spin-1s-200px.gif");
 } */
-.filter{
-    filter:blur(5px)
+.filter {
+  filter: blur(5px);
 }
-.container{
-    height:25rem;
-    width:25rem;
-    border:1px solid #2c6e49;
-    border-radius:4px;
-    margin:0.5rem;
-    background-color: #fff;
-    transition:transform 0.2s ease;
-    display:flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
+.container {
+  height: 25rem;
+  width: 25rem;
+  border: 1px solid #2c6e49;
+  border-radius: 4px;
+  margin: 0.5rem;
+  background-color: #fff;
+  transition: transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
 }
-.container-hover-state:hover{
-    transform:scale(0.9);
-    cursor:pointer;
+.container-hover-state:hover {
+  transform: scale(0.9);
+  cursor: pointer;
 }
-.title{
-    width:100%;
-    top:0;
-    text-align: center;
-    height:5rem;
-    border-bottom: 2px solid #2c6e49;
-    background-color: #A2CDCD;
+.title {
+  width: 100%;
+  top: 0;
+  text-align: center;
+  height: 5rem;
+  border-bottom: 2px solid #2c6e49;
+  background-color: #a2cdcd;
 }
-.image-container{
-    width:100%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+.image-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.image-container img{
-    height:100%;
-    width:100%;
-    padding-top:2rem;
+.image-container img {
+  height: 100%;
+  width: 100%;
+  padding-top: 2rem;
 }
 
 /* MODAL FOR WHEN THERE ARE NO CATEGORIES */
-.modal-null-categories{
-    position:absolute;
-    height:100vh;
-    width:100%;
-    z-index:9999;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    display:none;
+.modal-null-categories {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
 }
-.recipes-animation{
-    animation:show 1s;
+.recipes-animation {
+  animation: show 1s;
 }
 /* class for when modal shows up  */
-.modal-show{
-    display:flex;
-    z-index:2;
-    animation:show .2s;
-    transform:scale(1);
+.modal-show {
+  display: flex;
+  z-index: 2;
+  animation: show 0.2s;
+  transform: scale(1);
+  overflow: hidden;
 }
-.modal-hide{
-    animation:hide .2s;
-    transform:scale(0);
+.modal-hide {
+  animation: hide 0.2s;
+  transform: scale(0);
 }
 /* animation for the modal */
-@keyframes show{
-    from{
-        transform:scale(0);
-        opacity:0;
-        z-index:1;
-    }to{
-        transform:scale(1);
-        opacity:1;
-        z-index: 2;
-    }
+@keyframes show {
+  from {
+    transform: scale(0);
+    opacity: 0;
+    z-index: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 2;
+  }
 }
-@keyframes hide{
-    from{
-        transform:scale(1);
-        opacity:1;
-        z-index: 2;
-    }to{
-        transform:scale(0);
-        opacity:0;
-        z-index:1;
-    }
+@keyframes hide {
+  from {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 2;
+  }
+  to {
+    transform: scale(0);
+    opacity: 0;
+    z-index: 1;
+  }
 }
-.modal-card{
-    height:20rem;
-    width:27rem;
-    background-color:#FEF1E6;
-    border:2px solid #90AACB;
-    border-radius:0.4rem;
-    color:#212121;
+.modal-card {
+  height: 20rem;
+  width: 27rem;
+  background-color: #fef1e6;
+  border: 2px solid #90aacb;
+  border-radius: 0.4rem;
+  color: #212121;
 }
-.modal-card .modal-text{
-    height:10rem;
-    text-align: center;
-    font-size:2rem;
+.modal-card .modal-text {
+  height: 10rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.modal-card .modal-button {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-card .modal-button button {
+  padding: 1rem 3rem;
+  background-color: #ffb085;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
 
+.modal-card .modal-button button:hover {
+  cursor: pointer;
 }
-.modal-card .modal-button{
-    height:5rem;
-    display:flex;
+.modal-card .modal-button button:active {
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 1300px) {
+  .show-instructions {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .area {
+    display: none;
+  }
+  .ingredients p {
+    font-size: 0.8rem;
+  }
+  .recipe {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .recipe-image-title {
+    width: 100%;
+  }
+  .recipe-text {
+    margin: 0;
+  }
+  .recipe-image {
+    display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .recipe-image img {
+    border-radius: 0.4rem;
+    height: 70%;
+    width: 70%;
+  }
 }
-.modal-card .modal-button button{
-    padding:1rem 3rem;
-    background-color: #FFB085;
-    border:none;
-    border-radius:0.2rem;
-    font-size:1.2rem;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+@media only screen and (max-width: 460px) {
+  .modal-card {
+    margin: 0 auto;
+    height: 18rem;
+    width: 20rem;
+    font-size: 1.2rem;
+  }
 }
-
-.modal-card .modal-button button:hover{
-    cursor: pointer;
-}
-.modal-card .modal-button button:active{
-    transform:scale(0.9);
-
-}
-
-
-@media only screen and (max-width:1300px){
-   .show-instructions{
-       height:2rem;
-       width:2rem;
-   }
-}
-@media only screen and (max-width:770px){
-    .area{
-        display:none;
-    }
-    .ingredients p{
-        font-size:0.8rem;
-    }
-    .recipe{
-        
-    flex-direction: column;
-    }
+@media only screen and (max-width: 330px) {
+  .page-title {
+    font-size: 1.5em;
+  }
+  .recipe-text p {
+    font-size: 0.9rem;
+  }
+  .modal-card {
+    margin: 0 auto;
+    height: auto;
+    width: 17rem;
+    font-size: 1rem;
+  }
+  .modal-card .modal-button button {
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+  }
 }
 
-@media only screen and (max-width:580px){
-    .recipe-image-title{
-        width:100%;
-    }
-    .recipe-image{
-        display:flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .recipe-image img{
-        border-radius:0.4rem;
-        height:70%;
-        width:70%;
-    }
-}
-@media only screen and (max-width:460px){
-    .modal-card{
-        height:18rem;
-        width:20rem;
-       font-size:1.2rem;
-    }
-}
-@media only screen and (max-width:330px){
-    .recipe-text p{
-        font-size:0.9rem;
-    }
+@media only screen and (max-height: 600px) {
+  .modal-card {
+    margin-left: 0;
+    width: 17rem;
+    font-size: 1rem;
+  }
 }
